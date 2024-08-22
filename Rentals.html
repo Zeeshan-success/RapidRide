@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+
+    <script src="css/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+
+    <header class="sticky-top bg-light">
+        <div class="container ">
+            <div class="row justify-content-end">
+                <div class="col">
+                    <div class="navbar  navbar-expand-lg">
+                        <img class="" src="homepage img/Logo (1).png" alt="">
+                        
+
+                        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="mynavbar">
+                            <ul class="navbar-nav navli ">
+                                <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                                <li class="nav-item "><a class="nav-link " href="AboutUs.html">About Us</a></li>
+                                <li class="nav-item"><a class="nav-link active text-primary"
+                                        href="Rentals.html">Rentals</a></li>
+                                <li class="nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
+                                <li class="nav-item"><a class="nav-link" href="Bolgs.html">Blogs</a></li>
+                                <li class="nav-item"><a class="nav-link " href="Contactus.html">Contact Us</a></li>
+                            </ul>
+
+                            <a href="booking.html">
+                                <button class="btn btn-primary  rounded-3 " id="navbtn1contact">Book Now ➚</button>
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+                <!-- <div class="col-md-3"></div> -->
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid " id="aboutus" style="background-image: url(Aboutusimg/2954444\ 2.png);">
+        <div class="row">
+            <div class="col text-center">
+                <P class="display-3 fw-bold">Rentals</P>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <p class="">Home > Rentals</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row my-2">
+            <div class="col-5">
+                <h1 class="fw-bolder">Choose Your Ride.</h1>
+            </div>
+
+        </div>
+        <div class="row my-2 justify-content-between ">
+            <div class="col-md-5">
+                <p>Lorem ipsum dolor sit amet consectetur. Velit amet quam tristique aliquet urna proin nam pellentesque
+                    risus.</p>
+
+            </div>
+            <div class="col-md-4 mt-md-2  ">
+
+                <input type="text" placeholder="Search" class="rounded-3 form-control mb-0  "
+                    style="border: 0px; background-color: rgb(93%, 95%, 98%);">
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    <div class="container text-primary">
+        <div class="row">
+            <div class="col-md-3 d-none d-md-inline " >
+                <div class="container">
+                    <div class="row">
+                        <div class="col rounded-3 py-md-5" style="background-color: rgb(93%, 95%, 98%);">
+                             <form action="">
+                                 <label for="pricerange" class="form-label"><h6 class="fw-bolder text-primary">Price Range</h6></label>
+                                <input type="range" class=" form-range" id="pricerange" >
+                                 <h6 class="fw-bolder">Mileage</h6>
+                            <div class="form-check">
+                                <input type="checkbox" id="mileage">
+                                <label for="mileage">Limited</label>
+                            </div>
+                            
+                            <div class="form-check">
+                                <input type="checkbox" id="mileage">
+                                <label for="mileage">Unlimited</label>
+                            </div>
+                            <h6 class="fw-bolder">Seating Capacity</h6>
+                            <div class="form-check">
+                                <input type="checkbox" id="mileage">
+                                <label for="mileage">2 Person</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" id="mileage">
+                                <label for="mileage">4 person</label>
+                            </div>
+                            <h6 class="fw-bolder">Engine Type</h6>
+                            <div class="form-check">
+                                <input type="checkbox" id="mileage">
+                                <label for="mileage">Turbo</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" id="mileage">
+                                <label for="mileage">Aspirated</label>
+                            </div>
+                            <h6 class="fw-bolder">Transmission</h6>
+                            <div class="form-check">
+                                <input type="checkbox" id="mileage">
+                                <label for="mileage">Automatic</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" id="mileage">
+                                <label for="mileage">Manual</label>
+                            </div>
+                            </form>
+                        </div>
+                   </div>
+                    <div class="row my-2">
+                        <div class="col rounded-3 py-md-5" style="background-color: rgb(93%, 95%, 98%);" >
+                            
+                                        <div class="form ">
+                                            <label for="pickuplocation " class="form-label"> <h6 class="fw-bolder text-primary">Pick-Up-Location</h6></label>
+                                            <input type="text" id="pickuplocation" class=" form-control" style="border: 0px;">
+                                            <label for="pickupdatetime"><h6 class="fw-bolder text-primary form-label">Pick Up-Date</h6></label>
+                                            <input type="datetime-local" class="py-4 my-md-2 rounded-3 form-control"  id="pickupdatetime" style="border: 0px;">
+                                            <input type="checkbox" name="Return to a Different Place" class="form-checkbox" id="returnplace">
+                                            <label for="returnplace" class="form-checkbox">Return to a Different Place</label>
+                                            <label for="pickuplocation " class="form-label mt-md-2"> <h6 class="fw-bolder text-primary">Pick-Up-Location</h6></label>
+                                            <input type="text" id="pickuplocation" class=" form-control" style="border: 0px;">
+                                            <label for="pickupdatetime"><h6 class="fw-bolder text-primary form-label">Drop-off-Date</h6></label>
+                                            <input type="datetime-local" class="py-4 my-md-2 rounded-3 form-control"  id="pickupdatetime" style="border: 0px;">
+                                        </div>
+
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="container">
+                    
+                    <div class="row mb-4">
+                        <div class="col-md-4" >
+                            <div class="card rounded-3 " style="background-color: rgb(93%, 95%, 98%);border: 0px;">
+                                <img src="rentimg/pngwing 6.png" class="w-100 " alt="">
+                                <div class="card-title"> </div>
+                                <div class="card-body">
+                                    <h4 class="fw-bolder m-0 p-0">Audi A6</h4>
+                                    <p> Available
+        
+                                    </p>
+                                    <img src="rentimg/Vector.png" class="d-inline fw-bolder " style="height: 14px;width: 14px;" alt="">
+                                    <p class="d-inline fw-bolder  ">4.8</p>
+                                    <img src="rentimg/uil-car.png" class="d-inline fw-bolder" style="height: 14px;width: 14px;" alt="">
+                                    <p class="d-inline  fw-bolder ">4</p>
+                                    <p class="">Start From</p>
+                                    <div class="container-fluid">
+                                        <div class="row justify-content-between g-0">
+                                            <div class="col-lg-5"><h6 class="fw-bolder text-left  ">$69/Hour</h6></div>
+                                            <div class="col-lg-7 d-flex justify-content-end"><a href="rentalsingle.html"><button class=" mb-md-3  btn btn-sm btn-primary rounded-3">Book Now <img src="rentimg/uil-calendar-alt.png" style="height: 14px;width: 14px; " alt=""></button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                   
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-4" >
+                            <div class="card rounded-3 " style="background-color: rgb(93%, 95%, 98%);border: 0px;">
+                                <img src="rentimg/pngwing 6.png" class="w-100 " alt="">
+                                <div class="card-title"> </div>
+                                <div class="card-body">
+                                    <h4 class="fw-bolder m-0 p-0">Audi A6</h4>
+                                    <p> Available
+        
+                                    </p>
+                                    <img src="rentimg/Vector.png" class="d-inline fw-bolder " style="height: 14px;width: 14px;" alt="">
+                                    <p class="d-inline fw-bolder  ">4.8</p>
+                                    <img src="rentimg/uil-car.png" class="d-inline fw-bolder" style="height: 14px;width: 14px;" alt="">
+                                    <p class="d-inline  fw-bolder ">4</p>
+                                    <p class="">Start From</p>
+                                    <div class="container-fluid">
+                                        <div class="row justify-content-between g-0">
+                                            <div class="col-lg-5"><h6 class="fw-bolder text-left  ">$69/Hour</h6></div>
+                                            <div class="col-lg-7 d-flex justify-content-end"><a href="rentalsingle.html"><button class=" mb-md-3  btn btn-sm btn-primary rounded-3">Book Now <img src="rentimg/uil-calendar-alt.png" style="height: 14px;width: 14px; " alt=""></button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                   
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        
+                <div class="col-md-4" >
+                    <div class="card rounded-3 " style="background-color: rgb(93%, 95%, 98%);border: 0px;">
+                        <img src="rentimg/pngwing 6.png" class="w-100 " alt="">
+                        <div class="card-title"> </div>
+                        <div class="card-body">
+                            <h4 class="fw-bolder m-0 p-0">Audi A6</h4>
+                            <p> Available
+
+                            </p>
+                            <img src="rentimg/Vector.png" class="d-inline fw-bolder " style="height: 14px;width: 14px;" alt="">
+                            <p class="d-inline fw-bolder  ">4.8</p>
+                            <img src="rentimg/uil-car.png" class="d-inline fw-bolder" style="height: 14px;width: 14px;" alt="">
+                            <p class="d-inline  fw-bolder ">4</p>
+                            <p class="">Start From</p>
+                            <div class="container-fluid">
+                                <div class="row justify-content-between g-0">
+                                    <div class="col-lg-5"><h6 class="fw-bolder text-left  ">$69/Hour</h6></div>
+                                    <div class="col-lg-7 d-flex justify-content-end"><a href="rentalsingle.html"><button class=" mb-md-3  btn btn-sm btn-primary rounded-3">Book Now <img src="rentimg/uil-calendar-alt.png" style="height: 14px;width: 14px; " alt=""></button>                   </div></a>
+                 
+                                </div>
+                            </div>
+                            
+                            
+                           
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4" >
+                    <div class="card rounded-3 " style="background-color: rgb(93%, 95%, 98%);border: 0px;">
+                        <img src="rentimg/pngwing 6.png" class="w-100 " alt="">
+                        <div class="card-title"> </div>
+                        <div class="card-body">
+                            <h4 class="fw-bolder m-0 p-0">Audi A6</h4>
+                            <p> Available
+
+                            </p>
+                            <img src="rentimg/Vector.png" class="d-inline fw-bolder " style="height: 14px;width: 14px;" alt="">
+                            <p class="d-inline fw-bolder  ">4.8</p>
+                            <img src="rentimg/uil-car.png" class="d-inline fw-bolder" style="height: 14px;width: 14px;" alt="">
+                            <p class="d-inline  fw-bolder ">4</p>
+                            <p class="">Start From</p>
+                            <div class="container-fluid">
+                                <div class="row justify-content-between g-0">
+                                    <div class="col-lg-5"><h6 class="fw-bolder text-left  ">$69/Hour</h6></div>
+                                    <div class="col-lg-7 d-flex justify-content-end"><a href="rentalsingle.html"> <button class=" mb-md-3  btn btn-sm btn-primary rounded-3">Book Now <img src="rentimg/uil-calendar-alt.png" style="height: 14px;width: 14px; " alt=""></button>                   </div></a>
+                
+                                </div>
+                            </div>
+                            
+                            
+                           
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-4" >
+                    <div class="card rounded-3 " style="background-color: rgb(93%, 95%, 98%);border: 0px;">
+                        <img src="rentimg/pngwing 6.png" class="w-100 " alt="">
+                        <div class="card-title"> </div>
+                        <div class="card-body">
+                            <h4 class="fw-bolder m-0 p-0">Audi A6</h4>
+                            <p> Available
+
+                            </p>
+                            <img src="rentimg/Vector.png" class="d-inline fw-bolder " style="height: 14px;width: 14px;" alt="">
+                            <p class="d-inline fw-bolder  ">4.8</p>
+                            <img src="rentimg/uil-car.png" class="d-inline fw-bolder" style="height: 14px;width: 14px;" alt="">
+                            <p class="d-inline  fw-bolder ">4</p>
+                            <p class="">Start From</p>
+                            <div class="container-fluid">
+                                <div class="row justify-content-between g-0">
+                                    <div class="col-lg-5"><h6 class="fw-bolder text-left  ">$69/Hour</h6></div>
+                                    <div class="col-lg-7 d-flex justify-content-end"><a href="rentalsingle.html"><button class=" mb-md-3  btn btn-sm btn-primary rounded-3">Book Now <img src="rentimg/uil-calendar-alt.png" style="height: 14px;width: 14px; " alt=""></button>                   </div></a>
+                 
+                                </div>
+                            </div>
+                            
+                            
+                           
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+        <div class="col-md-4" >
+            <div class="card rounded-3 " style="background-color: rgb(93%, 95%, 98%);border: 0px;">
+                <img src="rentimg/pngwing 6.png" class="w-100 " alt="">
+                <div class="card-title"> </div>
+                <div class="card-body">
+                    <h4 class="fw-bolder m-0 p-0">Audi A6</h4>
+                    <p> Available
+
+                    </p>
+                    <img src="rentimg/Vector.png" class="d-inline fw-bolder " style="height: 14px;width: 14px;" alt="">
+                    <p class="d-inline fw-bolder  ">4.8</p>
+                    <img src="rentimg/uil-car.png" class="d-inline fw-bolder" style="height: 14px;width: 14px;" alt="">
+                    <p class="d-inline  fw-bolder ">4</p>
+                    <p class="">Start From</p>
+                    <div class="container-fluid">
+                        <div class="row justify-content-between g-0">
+                            <div class="col-lg-5"><h6 class="fw-bolder text-left  ">$69/Hour</h6></div>
+                            <div class="col-lg-7 d-flex justify-content-end"><a href="rentalsingle.html"><button class=" mb-md-3  btn btn-sm btn-primary rounded-3">Book Now <img src="rentimg/uil-calendar-alt.png" style="height: 14px;width: 14px; " alt=""></button>                       </div></a>
+                            </div>
+ 
+                    </div>
+                    
+                    
+                   
+                </div>
+                
+            </div>
+        </div>
+    </div>
+                    <div class="row mb-4">
+                        <div class="col-md-4" >
+                            <div class="card rounded-3 " style="background-color: rgb(93%, 95%, 98%);border: 0px;">
+                                <img src="rentimg/pngwing 6.png" class="w-100 " alt="">
+                                <div class="card-title"> </div>
+                                <div class="card-body">
+                                    <h4 class="fw-bolder m-0 p-0">Audi A6</h4>
+                                    <p> Available
+        
+                                    </p>
+                                    <img src="rentimg/Vector.png" class="d-inline fw-bolder " style="height: 14px;width: 14px;" alt="">
+                                    <p class="d-inline fw-bolder  ">4.8</p>
+                                    <img src="rentimg/uil-car.png" class="d-inline fw-bolder" style="height: 14px;width: 14px;" alt="">
+                                    <p class="d-inline  fw-bolder ">4</p>
+                                    <p class="">Start From</p>
+                                    <div class="container-fluid">
+                                        <div class="row justify-content-between g-0">
+                                            <div class="col-lg-5"><h6 class="fw-bolder text-left  ">$69/Hour</h6></div>
+                                            <div class="col-lg-7 d-flex justify-content-end"><a href="rentalsingle.html"><button class=" mb-md-3  btn btn-sm btn-primary rounded-3">Book Now <img src="rentimg/uil-calendar-alt.png" style="height: 14px;width: 14px; " alt=""></button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                   
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-4" >
+                            <div class="card rounded-3 " style="background-color: rgb(93%, 95%, 98%);border: 0px;">
+                                <img src="rentimg/pngwing 6.png" class="w-100 " alt="">
+                                <div class="card-title"> </div>
+                                <div class="card-body">
+                                    <h4 class="fw-bolder m-0 p-0">Audi A6</h4>
+                                    <p> Available
+        
+                                    </p>
+                                    <img src="rentimg/Vector.png" class="d-inline fw-bolder " style="height: 14px;width: 14px;" alt="">
+                                    <p class="d-inline fw-bolder  ">4.8</p>
+                                    <img src="rentimg/uil-car.png" class="d-inline fw-bolder" style="height: 14px;width: 14px;" alt="">
+                                    <p class="d-inline  fw-bolder ">4</p>
+                                    <p class="">Start From</p>
+                                    <div class="container-fluid">
+                                        <div class="row justify-content-between g-0">
+                                            <div class="col-lg-5"><h6 class="fw-bolder text-left  ">$69/Hour</h6></div>
+                                            <div class="col-lg-7 d-flex justify-content-end"><a href="rentalsingle.html"><button class=" mb-md-3  btn btn-sm btn-primary rounded-3">Book Now <img src="rentimg/uil-calendar-alt.png" style="height: 14px;width: 14px; " alt=""></button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                   
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        
+                <div class="col-md-4" >
+                    <div class="card rounded-3 " style="background-color: rgb(93%, 95%, 98%);border: 0px;">
+                        <img src="rentimg/pngwing 6.png" class="w-100 " alt="">
+                        <div class="card-title"> </div>
+                        <div class="card-body">
+                            <h4 class="fw-bolder m-0 p-0">Audi A6</h4>
+                            <p> Available
+
+                            </p>
+                            <img src="rentimg/Vector.png" class="d-inline fw-bolder " style="height: 14px;width: 14px;" alt="">
+                            <p class="d-inline fw-bolder  ">4.8</p>
+                            <img src="rentimg/uil-car.png" class="d-inline fw-bolder" style="height: 14px;width: 14px;" alt="">
+                            <p class="d-inline  fw-bolder ">4</p>
+                            <p class="">Start From</p>
+                            <div class="container-fluid">
+                                <div class="row justify-content-between g-0">
+                                    <div class="col-lg-5"><h6 class="fw-bolder text-left  ">$69/Hour</h6></div>
+                                    <div class="col-lg-7 d-flex justify-content-end"><a href="rentalsingle.html"><button class=" mb-md-3  btn btn-sm btn-primary rounded-3">Book Now <img src="rentimg/uil-calendar-alt.png" style="height: 14px;width: 14px; " alt=""></button>                   </div></a>
+                 
+                                </div>
+                            </div>
+                            
+                            
+                           
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+                </div>
+
+                <div class="container float-center ">
+                    <ul class="pagination flex-wrap d-flex justify-content-center  pagebar"  >
+                        <li class="page-item"><a class="page-link" href="rentalpagenext.html">Previous</a></li>
+                        <li class="page-item"><a class="page-link active" href="Rentals.html">1</a></li>
+                        <li class="page-item"><a class="page-link" href="rentalpagenext.html">2</a></li>
+                        <li class="page-item"><a class="page-link" href="rentalpagenext.html">3</a></li>
+                        <li class="page-item"><a class="page-link active" href="rentalpagenext.html">Next</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="w-100" style="background-color: #2D74BA;">
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img id="pointimg" src="footerimg/Vector2.png" alt="">
+                        <img src="footerimg/Frame 173.png" alt="">
+                        <div class="container-fluid ">
+                            <div class="row">
+                                <div class="col text-white">Lorem ipsum dolor sit amet consectetur. Tellus varius senectus quis tellus
+                                    ipsum nunc dictum sed. Nunc nam neque aliquam quis purus.</div>
+                            </div>
+                            <div class="row">
+                                <div class="col text-white">
+                                    <p>Subscribe To Our Newsletter</p>
+                                </div>
+                                <div class="row">
+                                    <div class="col my-3 ">
+                                        <input type="text" placeholder="Enter Your Email" class="form-control">
+                                  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 quicklinks  ">
+                            <div>
+                                <p class="bottonmargin " >Quick Links</p>
+                            </div>
+                            <div class="quicklinksitem">
+                                <ul class="ul">
+                                    <li><a href="home.html" >Home</a></li>
+                                    <li><a href="AboutUs.html">About Us</a></li>
+                                    <li><a href="Bolgs.html">Blogs</a></li>
+                                    <li><a href="Contactus.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 quicklinks  ">
+                            <div>
+                                <p class="bottonmargin " >Information</p>
+                            </div>
+                            <div class="quicklinksitem">
+                                <ul class="ul">
+                                    <li><a href="#" >Rental</a></li>
+                                    <li><a href="#">Booking Form</a></li>
+                                    <li><a href="#">Booking Details</a></li>
+                                    <li><a href="#">Brands</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 quicklinks  ">
+                            <div>
+                                <p class="bottonmargin " >Contact Info</p>
+                            </div>
+
+                        
+                                <ul class="contactinfo text-wrap">
+                                    <li><img src="footerimg/Vector1.png"  alt="#"> <div><p  >+1 (151) 656565</p></div></li>
+                                    <li><img src="footerimg/Vector2.png" alt=""> <div> <p>Main Street, New Jersey</p></div></li>
+                                     <li><img src="footerimg/Vector3.png" alt=""> <div><p>exampleinfo@gmail.com</p></div></li>
+                                    
+                                </ul>
+                               
+                            
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="container text-center  text-white py-3 border-top">
+                    <p>© 2024 All Rights Copyright Rapid Ride. Design & Developed By UIPARADOX</p>
+                </div>
+            </div>
+            
+    
+        
+        
+
+    
+    
+
+        
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,495 @@
+#navtextcolr{
+    font-size: 18px;
+    font-family: khula;
+    color:#0F0F0F;
+    font-weight: 600;
+    line-height: 21.6px;
+} 
+#navbtn{
+    
+    font-size: 18px;
+    font-family: khul;
+    
+    margin-top: 20px;
+    height: 48px;
+    width: 179px;
+    border-radius: 10px;
+   
+
+    background-color: #2D74BA;
+    color: white;
+    padding: 0px,32px,0px,32px;
+}
+.footer{
+    background-color: #2D74BA;
+    
+    
+    padding-top: 50px;
+}
+.footer3{
+    margin-top: 30px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    border-top: 1px solid #FFFFFF1A;
+}
+.footer3 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.foterimg{
+    height: 44.63px;
+    width: 101.01px;
+    
+}
+#paraset{
+    font-family: Khula;
+    font-size: 18px;
+    color: white;
+}
+#newsletter{
+    font-family: Metropolis;
+    font-size: 23px;
+
+    color: white;
+    width: 560px;
+    height: 92px;
+
+}
+#rapidride{
+    height: 153;
+    width: 414;
+}
+/* #footerform{
+    max-width: 414px;
+    height: 48;
+    font-size: 18px;
+    font-family: Khula;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 8px;
+    border: 0; */
+/* } */
+.emailenter{
+    width: 414px;
+    height: 48px;
+    border-radius: 8px;
+    
+    background-color: white;
+
+}
+.emailenter input {
+    background: transparent;
+    flex: 1;
+    border: 0; 
+    outline: 0;
+    font-size: 18px;
+    font-family: Khula;
+    color: white;
+    padding: 8px;
+   
+}
+.emailenter button {
+    border: 0px;
+    background: transparent;
+    display: flexbox;
+    margin-left: 120px;
+}
+.bottonmargin{
+    margin-bottom: 20px;
+}
+#point{
+    height: 55px;
+    width: 37px;
+    color: white;
+    padding-top: 0px;
+}
+.quicklinks div p {
+    font-family: Metropolis;
+    font-weight: 600;
+    font-size: 23px;
+    padding-left: 30px;
+    color: white;
+    
+}
+.ul li a {
+    font-family: Khula;
+    font-weight: 400;
+    font-size: 18px;
+   text-decoration: none;
+   
+   
+   color: white;
+  
+
+}
+.ul li {
+    list-style-type: none;
+}
+.contactinfo li img {
+    position: absolute;
+    
+    width: 19.96px;
+    height: 19.87px;
+    color: white;
+    
+   
+}
+.contactinfo li {
+    list-style-type: none;
+}
+.contactinfo li p {
+   
+    font-family: Khula;
+    font-size: 18px;
+    font-weight: 400;
+    
+    
+    word-break: break-all;
+    
+   
+   
+}
+#footerfollow{
+    font-family: Metropolis;
+    font-size: 23px;
+    font-weight: 600;
+}
+#footerimg2 img {
+    height: 24px;
+    width: 24px;
+    margin-left: 10px;
+    
+    
+}
+#footerimg2 {
+    margin-left: 20px;
+    
+}
+#aboutus{
+    background-color: #2D74BA;
+    background-image: url();
+    width: 100%;
+    min-height: 400px;
+    color: white;
+    padding: 100px;
+}
+#aboutus1 {
+    /* font-size: 6vw; */
+    /* font-weight: 600;
+    text-align: center;
+    font-family: Metropolis; */
+}
+#aboutus2{
+    /* font-size: 2vw; */
+    /* font-weight: 400;
+    text-align: center;
+    font-family: Metropolis; */
+
+}
+.unveiling {
+    font-family: Metropolis;
+    
+
+    /* font-weight: 600;
+    font-size: 55px; */
+    /* text-align: center; */
+}
+#whatweoffer{
+    font-weight: 600;
+    font-size: 23px;
+    font-family: Metropolis;
+    text-align: center;
+    
+}
+#liststyle{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: khula;
+    
+    display: inline-flex;
+   
+}
+#liststyle li {
+    margin-left: 50px;
+    
+
+}
+#ourjourney{
+    /* font-size: 55px; */
+    font-weight: 600;
+    font-family: Metropolis;
+}
+#content1{
+    font-size: 18px;
+    font-weight: 400;
+}
+#missionimg{
+    margin-top: 8px;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+}
+#mission{
+    font-weight: 600;
+    font-size: 28px;
+    padding-left: 40px;
+
+    
+}
+#missiontext{
+    font-size: 18px;
+    font-weight: 400;
+}
+.tbmergin{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.chooseus{
+    /* font-size: 55px; */
+    font-weight: 600;
+    text-align: center;
+}
+.chooseus p {
+    color: #2D74BA;
+}
+.chooseustxt{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.safety img{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    margin-top: 5px;
+
+}
+.safety h6 {
+    font-size: 23px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.safety p {
+    font-size: 18px;
+    font-weight: 400;
+}
+.navbar-brand-img1{
+    width: 143px;
+    height: 30px;
+    position: absolute;
+
+}
+.navbar-brand-img2{
+    height: 15px;
+    width: 143px;
+    margin-top: 47px;
+    
+
+}
+.navli  {
+    margin-left: 100px;
+
+}
+.navli li a{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+   
+}
+
+#navbtn1contact {
+
+    
+    
+    
+    margin-left: 100px;
+}
+
+#mynavbar ul li a:hover{
+    /* background-color: #2D74BA; */
+    color: #2D74BA;
+    text-decoration: underline;
+}
+
+#pointimg{
+    width: 37px;
+    height: 55px;
+    
+   
+}
+#send{
+    background-color: #0F0F0F;
+}
+.textbox input {
+
+}
+.textbox img{
+    
+    margin-top: 5px;
+    position: absolute;
+    
+}
+.textbox div{
+    max-width: 414px;
+    height: 48px;
+    background-color: transparent;
+}
+.emailreattempt{
+    min-width: 414px;
+    height: 48px;
+    border-radius: 8px;
+    padding-top: 10px;
+    position: absolute;
+    background-color: white;
+}
+.emailreattempt input{
+    width: 370px;
+    
+
+    border: 0px;
+    background-color: transparent;
+
+}
+.emailreattempt button  {
+    background: transparent;
+    
+    border: 0px;
+}
+.quicklinksitem ul li a:hover{
+    text-decoration: underline;
+    
+}
+/* .breakingword p {
+    word-break: break-all;
+
+}
+.breakingword p a {
+    word-break: break-all;
+} */
+ .buttonsize div button{
+    width: 130px;
+    
+
+ }
+ .pagebar li a:hover{
+    background-color : #0D6EFD;
+ } 
+
+ #overLap{
+    background-color: white;
+    padding-bottom: 50px;
+    
+    position: absolute;
+    top: 400px;
+
+ }
+ #contactnum div:hover{
+    color: #0D6EFD;
+
+ }
+ .topbottommargin{
+    margin-top: 200px;
+    margin-bottom: 200px;
+ }
+ ::placeholder{
+    text-align: left;
+ }
+@media screen and (min-width : 1000) {
+    .topbottommargin{
+        text-align: center;
+        margin-top: 200px;
+        margin-bottom: 200px;}
+    
+}
+
+#pricerange::after{
+    color: #0D6EFD;
+    content: " $30,000";
+
+}
+#pricerange::before{
+    color: #0D6EFD;
+    content: " $100";
+
+}
+label{
+    color: #0F0F0F;
+}
+
+.form-check::after{
+    
+    content: "(2)";
+    color: #0F0F0F;
+    text-align: right;
+}
+#glow:hover{
+    color: aliceblue;
+    background-color: #0D6EFD;}
+    
+#glow {
+background-color: rgb(236, 243, 249);
+border: 0px;
+    
+
+
+
+}
+#review{
+
+    background-color: rgb(236, 243, 249); 
+    border-radius: 15px; 
+    padding-top: 120px;
+    padding-bottom: 30px;
+    margin-top: -20%;
+    
+    
+}
+#formbooking{
+    background-color: #0D6EFD;
+    width: 100%;
+
+
+}
+
+#rentalsingleimgs div:hover{
+    
+    background-color: #0D6EFD;
+   
+}
+.worldimg{
+
+    background-image: url();
+
+}
+@media only screen and (max-width: 1200px) {
+    .navli  {
+        margin-left: 50px;
+        
+    
+    }
+    #navbtn1contact {
+
+    
+    
+    
+        margin-left: 50px;
+        
+    }
+  } 
+@media only screen and (max-width: 992px) {
+    .navli  {
+        margin-left: 0px;
+        margin-top: 20px;
+    
+    }
+    #navbtn1contact {
+
+    
+    
+    
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+  } 
